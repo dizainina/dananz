@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.btn_bg {
+    background-color: rgba(44, 56, 120, 1);
+    border: 1px solid #3C3C3C;
+}
+
+.line {
+    border-bottom: 2px solid #000;
+    height: 0.9rem;
+}
+
+.line_long {
+    border-bottom: 2px solid #000;
+    height: 3rem;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.average-title {
+    font-size: 3.5rem;
+}
+.small-title{
+    font-size: 2.5rem;
+}
+
+.number {
+    background-color: rgba(44, 56, 120, 1);
+    text-align: center;
+    z-index: 2;
+}
+
+#num {
+    font-size: 3.3rem;
+}
+
+#under_num {
+    font-size: 0.8rem;
+}
+
+#num1 {
+    font-size: 2rem;
+}
+
+#under_num1 {
+    font-size: 0.5rem;
+}
+
+.copiright{
+    position: absolute;
+    margin-top: 5rem;
+}
+
+.img_kitchen1{
+    position: relative;
+    z-index: 0;
+    margin-top: -17rem;
+}
+.img_kitchen1_1{
+    z-index: 0;
+}
+
+.Arga_Danaan {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    box-shadow: 10px 10px 40px 0px rgba(0, 0, 0, 0.05);
+    margin-top: 3rem;
+    margin-left: -5rem;
+    font-size: 1.2rem;
+}
+
+.a_danaan {
+    margin-right: 7%;
+}
+
+.grey_text {
+    color: rgba(156, 156, 156, 1);
+}
+
+.learn_more {
+    margin-top: 2em;
+    /* margin-left: 2rem; */
+}
+
+.list_one {
+    background-color: white;
+    position: relative;
+}
+
+.btn_bg_white {
+    background-color: #fff;
+    border: 1px solid #3C3C3C;
+}
+
+.contact_us {
+    background-color: rgba(44, 56, 120, 1);
+}
+
+.img_furniture1{
+    margin-top: -6rem;
+}
+
+.img_furniture2{
+    margin-top: 2.5rem;
+}
+
+#soc_icon{
+    border-radius: 50%;
+    background-color:rgba(217, 217, 217, 1);
+    width: 2.5rem;
+    padding:0.5rem;
+}
+
+#btn-input{
+    margin-top: -5rem;
+}
+
+.theme-other {
+    background: rgb(235, 206, 168);
+    color: rgb(80, 43, 12);
+}
+
+.themeForContactUs {
+    background-color: rgb(80, 43, 12);
+    padding: 3rem 0;
+}
+
+/* #brownButtonMain {
+    background-color: rgb(80, 43, 12);
+} */
+
+.brownText {
+    color: rgb(80, 43, 12);
+
+}

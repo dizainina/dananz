@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="Dananz_Home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body id="main">
+  <header>
+
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="Dananz_Home.html"><img src="Logo.svg" alt="header_logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации"><span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+              <div class="w-100 d-flex justify-content-end">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" style="font-weight: 600;margin-left: 3rem; text-align: right;" aria-current="page" href="Dananz_Home.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link"  style="margin-left: 3rem; text-align: right;" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" style="margin-left: 3rem; text-align: right;"href="#">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" style="margin-left: 3rem; text-align: right;" href="#">Our Teams</a>
+                  </li>
+                  <form class="d-flex justify-content-sm-end" role="other_theme">
+                    <a id="select" onclick="darkLight()" class="btn btn-secondary text-white pt-2" role="button" style="width: 142px; height: 49px; border-radius: 0; font-weight: 500;line-height: 1.8; margin-left: 3rem;">Other Theme</a>
+                  </form>
+                  <form class="d-flex justify-content-sm-end" role="contact_us">
+                    <a class="btn btn-primary text-white btn_bg pt-2" href="Dananz_Contact_Us.html" role="button" style="width: 142px; height: 49px; border-radius: 0; font-weight: 500;line-height: 1.8; margin-left: 3rem;"  id="brownButton">Contact Us</a>
+                  </form>
+                </ul>
+                
+              </div>
+            </div>
+      </nav>
+    </div>
+  </header>
+
+<!-- ============================================== -->
+  <main>
+    <section class="container home my-5 position-relative">
+      <!-- <div class="container"> -->
+      <div class="row">
+        <!-- блок для маленьких экранов -->
+        <div class="col d-md-none">
+          <h1 class="col-12 col-md-3 small-title">Design your interor with high quality</h1>
+          <!-- линия для маленьких экранов-->
+          <div class="col-12 line_long"></div>
+        </div>
+
+        <!-- блок для средних экранов -->
+        <div class="d-none d-md-flex d-lg-none">
+          <h1 class="col-6 average-title">Design your</h1>
+          <!-- линия для средних экранов -->
+          <div class="col-6 line_long"></div>
+        </div>
+        <div class="col-8 d-none d-md-flex d-lg-none">
+          <h1 class="average-title">interor with high quality.</h1>
+        </div>
+
+        <!-- блок для больших экранов -->
+        <div class="d-none d-lg-flex">
+          <h1 id="blueText" class="col-5">Design your</h1>
+          <!-- линия для больших экранов -->
+          <div class="col-7 line_long"></div>
+        </div>
+        <div class="col-7 d-none d-lg-flex">
+          <h1>interor with high quality.</h1>
+        </div>
+
+        <!-- для малых экранов -->
+        <div class="col-12 d-md-none">
+          <p style="font-size: 1.3rem; font-weight: bold;">2022 ALL RIGHT RESERVED</p>
+        </div>
+
+        <div class="conteiner-fluid d-md-none text-white number">
+          <div class="row  d-md-none text-white number">
+            <div class="col-4">
+              <p id="num1">350+</p>
+              <p id="under_num1">Project Completed</p>
+            </div>
+            <div class="col-4">
+              <p id="num1">23+</p>
+              <p id="under_num1">Professional Teams</p>
+            </div>
+            <div class="col-4">
+              <p id="num1">15+</p>
+              <p id="under_num1">Years Experience</p>
+            </div>
+          </div>
+          
+        </div>
+          
+        <!-- для средних экранов -->
+        <div class="col-3  d-none d-md-block d-lg-none text-white number">
+          <div class="p-4">
+            <p id="num">350+</p>
+            <p id="under_num">Project Completed</p>
+          </div>
+          <div class="py-1">
+            <p id="num">23+</p>
+            <p id="under_num">Professional Teams</p>
+          </div>
+          <div class="p-4">
+            <p id="num">15+</p>
+            <p id="under_num">Years Experience</p>
+          </div>
+        </div>
+        
+        <!-- для больших экранов -->
+        <div class="col-2 d-none d-lg-block text-white number  position-relative;" id="brownNumber">
+          <div class="p-4">
+            <p id="num">350+</p>
+            <p id="under_num">Project Completed</p>
+          </div>
+          <div class="py-1">
+            <p id="num">23+</p>
+            <p id="under_num">Professional Teams</p>
+          </div>
+          <div class="p-4">
+            <p id="num">15+</p>
+            <p id="under_num">Years Experience</p>
+          </div>
+        </div>
+
+        <div class=" container col-3 offset-10 d-none d-lg-inline copiright">
+          <p id="copiright" style="transform: rotate(270deg); font-size: 1rem; font-weight: bold;">2022 <br> ALL RIGHT RESERVED</p>
+        </div>
+    
+        <div class="col-12 d-none d-md-flex">
+          <img src="img1.png" class="img-fluid img_kitchen1" alt="kitchen">
+        </div>
+        <div class="col-12 d-md-none">
+          <img src="img1.png" class="img-fluid img_kitchen1_1" alt="kitchen">
+        </div>
+      </div>
+      </div>
+    </section>
+
+<!-- ------------------ -->
+    <section class="container about my-5">
+        <div class="row my-5">
+          <div class="row" style="font-size: 1.1rem;" >
+            <p class="col-3 col-sm-2 col-md-1">ABOUT</p>
+            <div class="col-6 col-sm-7 col-md-6  mx-4 line"></div>
+          </div>
+
+          <div class="row d-md-none" style="font-size: 1.5rem; font-weight: 600;">
+            <p>“We're one of the best furniture agency. Prioritizing customers and making purchases easy are the hallmarks of our agency.”</p>
+          </div>
+          <div class="row d-none d-md-flex" style="font-size: 2.2rem; font-weight: 600;">
+            <p>“We're one of the best furniture agency. Prioritizing customers and making purchases easy are the hallmarks of our agency.”</p>
+          </div>
+
+          <img src="img2.png" class="img-fluid col-12 col-lg-9" alt="kitchen" >
+          
+          <div class="row col-lg-3 d-flex justify-content-between d-lg-block">
+            <div class="col-1 d-lg-none"></div>
+            <div class="col-11 col-sm-7 col-md-5 col-lg-12 mr-5 d-flex Arga_Danaan">
+              <img src="img7.svg" class="img-fluid a_danaan"  alt="Arga_Danaan">
+              <p> <strong>Arga Danaan</strong> <br> <span id="grey_text">CEO of Dananz</span> </p>
+            </div>
+            <div class="col-sm-11 col-md-6 col-lg-10 offset-lg-2 learn_more">
+            <p id="greyText" class="grey_text">Online learning with us does not interfere with your daily life. because learning can be done anytime and anywhere.</p>
+            <form class="d-flex" role="learn_more">
+              <a class="btn btn-primary text-white btn_bg pt-2" href="#" role="button" style="width: 142px; height: 49px; border-radius: 0; font-weight: 500;line-height: 1.8;" id="brownButtonLearnMore">Learn More</a>
+            </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        
+
+    </section>
+
+<!-- ------------------ -->
+    <section class="container service my-5">
+        <div class="row my-5">
+          <div class="row" style="font-size: 1.1rem;" >
+            <p class="col-4 col-md-1">SERVICE</p>
+            <div class="col-7 col-md-6 mx-md-3 line"></div>
+          </div>
+
+          <div class="row d-md-none" style="font-size: 1.5rem; font-weight: 600;">
+            <p>attractive furniture with the best quality.</p>
+          </div>
+          <div class="row d-none d-md-flex" style="font-size: 2.2rem; font-weight: 600;">
+            <p>attractive furniture with the best quality.</p>
+          </div>
+          <div class="col-sm-10 col-md-9 col-lg-5">
+            <p id="greyText2" class="grey_text">Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations.</p>
+          </div>
+
+        <div class="col-sm-10 col-md-9 py-2 list_one">
+          <div class="row" style="font-size: 1.3rem; font-weight:600">
+            <div class="row">
+              <div class="col-3 col-sm-2 col-md-1">
+                <p>01</p>
+              </div>
+              <div class="col-7 col-sm-9 col-md-10">
+                <p>Interior Design</p>
+              </div>
+              <div class="col-2 col-sm-1">
+                <img src="icons/arrow-right.png" alt="arrow-right">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-3 col-sm-2 col-md-1">
+                <p>02</p>
+              </div>
+              <div class="col-7 col-sm-9 col-md-10">
+                <p>Consultant</p>
+              </div>
+              <div class="col-2 col-sm-1">
+                <img src="icons/arrow-right.png" alt="arrow-right">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-3 col-sm-2 col-md-1">
+                <p>03</p>
+              </div>
+              <div class="col-7 col-sm-9 col-md-10">
+                <p>Construction Consultant</p>
+              </div>
+              <div class="col-2 col-sm-1">
+                <img src="icons/arrow-right.png" alt="arrow-right">
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <img src="img3.png" class="img-fluid d-none d-sm-flex col-sm-11 offset-1" style="margin-top: -9rem;" alt="living_room">
+      </div>
+    </section>
+
+<!-- ------------------ -->
+    <section class="container product my-5">
+      <div class="row my-5">
+        <div class="row" style="font-size: 1.1rem;" >
+          <p class="col-5 col-sm-4 col-md-2 col-lg-1">PRODUCT</p>
+          <div class="col-6 col-sm-7 col-md-6 mx-md-3 line"></div>
+        </div>
+
+        <div class="col-12 col-lg-4 d-md-none" style="font-size: 1.5rem; font-weight: 600;">
+          <p>Choose your product themes.</p>
+        </div>
+        <div class="col-12 col-lg-4 d-none d-md-flex" style="font-size: 2.2rem; font-weight: 600;">
+          <p>Choose your product themes.</p>
+        </div>
+
+        <div class="col-12 col-lg-5 offset-lg-3">
+          <p id="grey_text">Find the theme you want. If our choice of theme is not what you want, you can customize it as you want.</p>
+        </div>
+      </div>
+      
+      <div class="list_two">
+        <div class="col" style="font-size: 2rem; font-weight:600">
+          <div class="row">
+
+            <div class="col-2 col-md-1">
+              <p>01</p>
+            </div>
+            <div class="col-8 col-md-10">
+              <p>Vintage</p>
+              <p class="d-none d-sm-flex" style="font-size: 0.9rem; font-weight: 400;" >the use of simple and limited elements to get the <br> best effect or impression.</p>
+            </div>
+
+            <div class="col-1">
+              <img src="icons/arrow-right.png" alt="arrow-right">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-2 col-md-1">
+              <p>02</p>
+            </div>
+            <div class="col-8 col-md-10">
+              <p>Minimalist</p>
+              <p class="d-none d-sm-flex" style="font-size: 0.9rem; font-weight: 400;" >the use of simple and limited elements to get the <br>best effect or impression.</p>
+            </div>
+            <div class="col-1">
+              <img src="icons/arrow-right.png" alt="arrow-right">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-2 col-md-1">
+              <p>03</p>
+            </div>
+            <div class="col-8 col-md-10">
+              <p>Modern</p>
+              <p class="d-none d-sm-flex" style="font-size: 0.9rem; font-weight: 400;" >the use of simple and limited elements to get the<br> best effect or impression.</p>
+            </div>
+            <div class="col-1">
+              <img src="icons/arrow-right.png" alt="arrow-right">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-2 col-md-1">
+              <p>04</p>
+            </div>
+            <div class="col-8 col-md-10">
+              <p>transitional</p>
+              <p class="d-none d-sm-flex" style="font-size: 0.9rem; font-weight: 400;" >the use of simple and limited elements to get the <br>best effect or impression.</p>
+            </div>
+            <div class="col-1">
+              <img src="icons/arrow-right.png" alt="arrow-right">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- ------------------ -->
+    <section class="container material my-5">
+      <div class="row my-5">
+        <div class="row" style="font-size: 1.1rem;" >
+          <p class="col-5 col-sm-4 col-md-2 col-lg-1">MATERIAL</p>
+          <div class="col-6 col-sm-7 col-md-6 mx-md-3 line"></div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+
+          <div class="row d-md-none" style="font-size: 1.5rem; font-weight: 600;">
+            <p>choice of materials for quality furniture.</p>
+          </div>
+
+          <div class="row d-none d-md-flex" style="font-size: 2.2rem; font-weight: 600;">
+            <p>choice of materials for quality furniture.</p>
+          </div>
+
+          <div class="row">
+            <p id="grey_text">You can custom the material as desired. And our furniture uses the best materials and selected quality materials.</p>
+          </div>
+          <form class="row mb-5" role="learn_more">
+            <a class="btn btn-primary text-black btn_bg_white pt-2" href="#" role="button" style="width: 142px; height: 49px; border-radius: 0; font-weight: 500;line-height: 1.8; margin-left: .8rem;">See Materials</a>
+          </form>
+        </div>
+        <div class="col-12 col-md-5 col-lg-4 offset-md-1 d-flex justify-content-center">
+          <img src="img4.png" class="img-fluid" alt="laminat">
+        </div>
+        <div class="col-6 col-lg-3 d-none d-lg-block">
+          <img src="img5.png" class="img-fluid  img_furniture1" alt="laminat">
+          <img src="img6.png" class="img-fluid  img_furniture2" alt="laminat">
+        </div>
+      </div>
+    </section>
+
+<!-- ------------------ -->
+    <section class="container-fluid py-5 contact_us" id="themeForContactUs">
+      <div class="container text-white">
+        <div class="row">
+          <div class="col-12 col-lg-6" style="font-size: 2.2rem; font-weight:500;">
+            <p>let's discuss making your interior like a dream place!</p>
+          </div>
+          <div class="col-12 col-lg-5 offset-lg-1">
+            <p id="grey_text">Contact us below to work together to build your amazing interior</p>
+            <form class="d-flex" role="learn_more">
+              <a class="btn btn-primary text-black btn_bg_white pt-2" href="Dananz_Contact_Us.html" role="button" style="width: 142px; height: 49px; border-radius: 0; font-weight: 500; line-height: 1.8;">Contact Us</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+<!-- ============================================== -->
+  <footer>
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-12 col-lg-6" style="font-size: 2.2rem; font-weight: bold;">
+            <a class="navbar-brand" href="Dananz_Home.html"><img src="Logo.svg" alt="header_logo"></a>
+            <button class="navbar-toggler" type="button"></button>
+            <p>One of the best furniture agency.</p>
+          </div>
+          <div class="col-12 col-lg-5 offset-lg-1">
+            <form>
+              <div class="row mb-3">
+                <label for="exampleInputEmail1" class="form-label"><img src="icons/Ellipse 74.png" alt="" style="margin-right: 1rem;"> Enter  your email to get the laterst news</label>
+                <div class="col-12">
+                  <input type="email" class="form-control-lg text_input p-0 w-100" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address" style="border: none;
+                  border-bottom: 1px solid black; border-radius: 0; font-size: 1rem;">
+                </div>
+                
+              </div>
+              <div class="d-flex justify-content-end">
+                <button type="submit" class="btn"  id="btn-input"><img src="icons/Vector 32.png" alt=""></button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-6 col-md-3 offset-6 offset-md-9">
+            <p>Follow us On</p>
+          </div>
+        </div>
+
+        <div class="row px-2">
+          <div class="col-6 col-md-3 offset-6 offset-md-9 d-flex justify-content-between">
+            <a href="#"><img class="img-fluid" src="icons/facebook.svg" alt="" id="soc_icon" ></a>
+            <a href="#"><img class="img-fluid" src="icons/instagram.svg" alt="" id="soc_icon" ></a>
+            <a href="#"><img class="img-fluid" src="icons/tiktok.svg" alt="" id="soc_icon" ></a>
+            <a href="#"><img class="img-fluid" src="icons/youtube.svg" alt="" id="soc_icon" ></a>
+          </div>
+        </div>
+          
+        </div>
+
+      </div>
+  </footer>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  <script src="Other_theme.js"></script>
+
+</body>
+
+</html>
